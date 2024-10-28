@@ -198,6 +198,16 @@ main {
     list-style-type: none;
 }
 
+/* Gallery Page */
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
+}
+
 #social-networks i {
     font-size: 160%;
     padding: 5%;
