@@ -42,7 +42,35 @@
     </header>
     <main>
         <!-- Main -->
-        <h2><i class="fa-solid fa-heart-pulse"></i> Let's get you signed up!</h2>
+        <section id="signup">
+            <form action="https://formdump.codeinstitute.net" id="signup-form">
+                <h2><i class="fa-solid fa-heart-pulse"></i> Let's get you signed up!</h2>
+
+                <label for="first-name">First Name</label>
+                <input type="text" class="text-input" required name="first-name" id="first-name"> <br>
+                <label for="last-name">Last Name</label>
+                <input type="text" class="text-input" required name="last-name" id="last-name"> <br>
+                <label for="email-address">Email</label>
+                <input type="email" class="text-input" required name="email-address" id="email-address"> <br>
+                <div class="radio-buttons">
+                    <div>
+                        <label for="road">Road</label>
+                        <input type="radio" id="road" value="road" name="running-preference" required checked>
+                    </div>
+                    <div>
+                        <label for="trial">Trial</label>
+                        <input type="radio" id="trial" value="trial" name="running-preference">
+                    </div>
+                    <div>
+                        <label for="both">Both</label>
+                        <input type="radio" id="both" value="both" name="running-preference">
+                    </div>
+                </div>
+                <button type="submit" class="join-button">Let's Run!</button>
+
+            </form>
+        </section>
+
     </main>
     <footer>
         <!-- Footer -->
@@ -52,16 +80,16 @@
                     (Opens in new tab)><i class="fa-brands fa-facebook"></i></a>
             </li>
             <li>
-                <a href="https://www.x.com/" target="_blank" rel="noopener" aria-label="" Visit our X page
-                    (Opens in new tab)><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.x.com/" target="_blank" rel="noopener" aria-label="" Visit our X page (Opens in new
+                    tab)><i class="fa-brands fa-x-twitter"></i></a>
             </li>
             <li>
                 <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="" Visit our YouTube page
                     (Opens in new tab)><i class="fa-brands fa-youtube"></i></a>
             </li>
             <li>
-                <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="" Visit our Instagram page
-                    (Opens in new tab)><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="" Visit our Instagram
+                    page (Opens in new tab)><i class="fa-brands fa-instagram"></i></a>
             </li>
         </ul>
     </footer>
